@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "types": ["reflect-metadata", "node", "jest"]
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*",
+    "../low-nest-core/src",
+    "../low-nest-core/types"
+  ],
+  "exclude": ["node_modules", "./src/**/*.spec.ts"]
+}
