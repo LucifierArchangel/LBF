@@ -34,7 +34,7 @@ export class ModulesLoader {
                 const controllers = Reflect.getMetadata('controllers', module)
 
                 writeStr =
-                    ' [Controllers] '.green + `${controllers.length}`.gray
+                    ' [Controllers] '.green + `${controllers.length}\n`.gray
                 process.stdout.write(writeStr)
 
                 if (controllers && controllers.length !== 0) {
