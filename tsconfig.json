@@ -8,7 +8,7 @@
     "outDir": "dist",
     "esModuleInterop": true,
     "declaration": true,
-    "baseUrl": "src",
+    "baseUrl": "./src",
     "types": ["reflect-metadata", "node", "jest"]
   },
   "include": [
