@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist/src/index.js",
   "scripts": {
-    "build": "tsc",
-    "preinstall": "npm run build"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
